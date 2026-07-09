@@ -3,31 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Toko Nombul - Toko Online Bul-bul</title>
+  <title>Toko Nombul - Rekomendasi Produk Kucing</title>
   <style>
     body {font-family: Arial; margin: 0; padding: 0; background: #fff5f5; text-align: center;}
     header {background: #ff6b6b; color: white; padding: 20px;}
-    .produk {background: white; margin: 20px auto; padding: 20px; border-radius: 10px; width: 90%; max-width: 400px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);}
-    .produk img {width: 100%; border-radius: 10px;}
-    .btn {display: inline-block; background: #25D366; color: white; padding: 12px 20px; border-radius: 8px; text-decoration: none; margin-top: 10px; font-weight: bold;}
+    .container {display: flex; flex-wrap: wrap; justify-content: center; padding: 20px; gap: 20px;}
+    .produk {background: white; margin: 10px; padding: 15px; border-radius: 10px; width: 90%; max-width: 300px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);}
+    .produk img {width: 100%; border-radius: 10px; height: 250px; object-fit: cover;}
+    .harga {font-size: 20px; color: #ff6b6b; font-weight: bold; margin: 10px 0;}
+    .btn {display: inline-block; background: #25D366; color: white; padding: 10px 18px; border-radius: 8px; text-decoration: none; font-weight: bold;}
+    .btn:hover {background: #1ebe5a;}
     footer {background: #333; color: white; padding: 15px; margin-top: 30px;}
   </style>
 </head>
 <body>
   <header>
-    <h1>Toko Nombul</h1>
-    <p>Toko Online Bul-bul 🛍️</p>
+    <h1>Toko Nombul 🐱</h1>
+    <p>Rekomendasi Produk Kucing Terbaik</p>
   </header>
 
-  <div class="produk">
-    <img src="logo.png" alt="Logo Toko Nombul">
-    <h2>Selamat Datang!</h2>
-    <p>Jual berbagai produk bul-bul terbaik</p>
-    <a class="btn" href="https://wa.me/089654550730" target="_blank">Order via WhatsApp</a>
+  <div class="container">
+    
+    <div class="produk">
+      <img src="produk1.jpg" alt="Baju kucing lucu ceo ngantuk">
+      <h2>Baju Kucing Lucu "CEO Ngantuk"</h2>
+      <p>Baju kucing gemes banget, cocok buat foto. Bahan adem & nyaman</p>
+      <a class="btn" href="https://vt.tokopedia.com/t/ZS9MyuXPsu5tR-OzurZ/" target="_blank">Beli di Tokopedia</a>
+    </div>
+
+    <div class="produk">
+      <img src="produk2.jpg" alt="Meat end treat cat grass">
+      <h2>Meat End Treat + Cat Grass</h2>
+      <p>Snack sehat + rumput kucing buat pencernaan. Kucing pasti suka!</p>
+      <a class="btn" href="https://vt.tokopedia.com/t/ZS9MyHpM2CPYd-vX5pU/" target="_blank">Beli di Tokopedia</a>
+    </div>
+
+    <div class="produk">
+      <img src="produk3.jpg" alt="Minyak ikan olive care">
+      <h2>Minyak Ikan Olive Care</h2>
+      <p>Vitamin buat bulu kucing makin lebat & sehat. 1 tetes sehari</p>
+      <a class="btn" href="https://vt.tokopedia.com/t/ZS9MyHvxTu7M4-cSgRn/" target="_blank">Beli di Tokopedia</a>
+    </div>
+
   </div>
 
   <footer>
-    <p>© 2026 Toko Nombul</p>
+    <p>© 2026 Toko Nombul | Rekomendasi Affiliate</p>
   </footer>
 </body>
 </html>
